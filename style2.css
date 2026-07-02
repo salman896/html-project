@@ -1,0 +1,30 @@
+*{
+    color: brown;
+}
+
+/* h1{
+    color: blue;
+}
+
+p{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+} */
+
+.main{
+    color: blueviolet;
+}
+
+#major{
+    color: red;
+}
+
+.sec{
+    background-color: blue;
+}
+
+#main{
+    font-size: 50px;
+    text-decoration: line-through;
+}

@@ -1,0 +1,27 @@
+.container{
+
+    padding: 3px;
+    background-color: aqua;
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: column;
+    flex-direction: row;
+    flex-direction: column-reverse; */
+
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+    align-items: end;
+    align-items: center;
+}
+
+.main{
+    height: 60px;
+    width: 60px;
+    background-color: brown;
+    margin: 2px;
+}

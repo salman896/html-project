@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 300px;
+    /* width: 300px; */
+    /* width: 60%; */
+    width: 400px;
+    background-color: aquamarine;
+    display: inline-block;
+
+}
+
+
+h1{
+    padding: 30px;
+    /* padding-top: 40px; */
+    border-style: solid;
+    border-width: 6px;
+    margin: 40px;
+    margin-left: 20px; 
+    /* display: inline; */
+
+}
+/* 
+.main3{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    display: inline-block;
+} */
+
+
+.main2 {
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+    display: inline-block;
+    overflow: scroll;
+
+    /* Hide scrollbar in Firefox */
+    scrollbar-width: none;
+
+    /* Hide scrollbar in IE and old Edge */
+    -ms-overflow-style: none;
+    color: red;
+}
+
+/* Hide scrollbar in Chrome, Edge, and Safari */
+.main2::-webkit-scrollbar {
+    display: none;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+}
